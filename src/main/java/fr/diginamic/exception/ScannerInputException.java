@@ -1,6 +1,6 @@
 package fr.diginamic.exception;
 
-public class ScannerInputException extends RuntimeException
+public class ScannerInputException extends Exception
 {
     public ScannerInputException(String message)
     {
