@@ -1,4 +1,4 @@
-package fr.diginamic.exception;
+package fr.diginamic.recensement.exception;
 
 public class ScannerInputException extends Exception
 {

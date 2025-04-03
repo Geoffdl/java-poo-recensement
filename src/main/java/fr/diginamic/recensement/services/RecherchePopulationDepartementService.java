@@ -3,9 +3,8 @@ package fr.diginamic.recensement.services;
 import java.util.List;
 import java.util.Scanner;
 
-import fr.diginamic.exception.ScannerInputException;
+import fr.diginamic.recensement.exception.ScannerInputException;
 import fr.diginamic.recensement.utils.UserInputValidator;
-import org.apache.commons.lang3.math.NumberUtils;
 
 import fr.diginamic.recensement.entites.Recensement;
 import fr.diginamic.recensement.entites.Ville;

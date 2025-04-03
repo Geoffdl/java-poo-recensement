@@ -2,7 +2,7 @@ package fr.diginamic.recensement;
 
 import java.util.Scanner;
 
-import fr.diginamic.exception.ScannerInputException;
+import fr.diginamic.recensement.exception.ScannerInputException;
 import fr.diginamic.recensement.entites.Recensement;
 import fr.diginamic.recensement.services.RechercheDepartementsPlusPeuplees;
 import fr.diginamic.recensement.services.RecherchePopulationBorneService;

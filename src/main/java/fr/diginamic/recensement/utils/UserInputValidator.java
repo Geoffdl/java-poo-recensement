@@ -1,16 +1,14 @@
 package fr.diginamic.recensement.utils;
 
-import fr.diginamic.exception.ScannerInputException;
+import fr.diginamic.recensement.exception.ScannerInputException;
 import org.apache.commons.lang3.math.NumberUtils;
-
-import java.util.Scanner;
 
 public class UserInputValidator
 {
     /**
      * Nettoie le string pour validation avec .trim().replace(" ", "")
      *
-     * @param scanner
+     * @param scanner user input
      * @return un string nettoyé pour validation
      */
     public static String cleanStringForIntValidation(String scanner)
@@ -21,9 +19,9 @@ public class UserInputValidator
     /**
      * Valide si le champs est bien un convertible en un Int valide pour la logique de l'application (positif entre 1 et 1000)
      *
-     * @param scanner
-     * @return
-     * @throws ScannerInputException
+     * @param scanner user input
+     * @return user input
+     * @throws ScannerInputException if input is invalid
      */
     public static String validateInt(String scanner) throws ScannerInputException
     {

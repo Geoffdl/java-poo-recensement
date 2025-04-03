@@ -7,13 +7,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-import fr.diginamic.exception.ScannerInputException;
+import fr.diginamic.recensement.exception.ScannerInputException;
 import fr.diginamic.recensement.entites.Departement;
 import fr.diginamic.recensement.entites.Recensement;
 import fr.diginamic.recensement.entites.Ville;
 import fr.diginamic.recensement.services.comparators.EnsemblePopComparateur;
 import fr.diginamic.recensement.utils.UserInputValidator;
-import org.apache.commons.lang3.math.NumberUtils;
 
 /**
  * Affichage des N départements les plus peuplés
